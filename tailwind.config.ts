@@ -27,10 +27,22 @@ const config: Config = {
             opacity: '0'
           },
           '100%': { transform: 'translateY(-300px) scaleX(10)' },
+        },
+        water: {
+          '0%': {
+            clipPath: 'polygon(0% 45%, 15% 44%, 32% 50%, 54% 60%, 70% 61%, 84% 59%, 100% 52%, 100% 100%, 0% 100%)'
+          }, 
+          '50%': {
+            clipPath: 'polygon(0% 75%, 16% 65%, 34% 66%, 51% 62%, 67% 50%, 84% 45%, 100% 46%, 100% 100%, 0% 100%)'
+          },
+          '100%': {
+            clipPath: 'polygon(0% 45%, 15% 44%, 32% 50%, 54% 60%, 70% 61%, 84% 59%, 100% 52%, 100% 100%, 0% 100%)'
+          }
         }
       },
       animation: {
-        'steam-up': 'steam 5s linear infinite'
+        'steam-up': 'steam 5s linear infinite',
+        'water': 'water 4s ease-in-out infinite'
       },
       //1 3 16 5 20 6 7 10 8 17 11 12 13 14 2 9 15 4 19
       // *-500
