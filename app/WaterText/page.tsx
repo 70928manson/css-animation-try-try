@@ -1,5 +1,3 @@
-import React from 'react'
-
 const WaterText = () => {
   return (
     <div className="box-border font-['Noto_Sans_TC']">

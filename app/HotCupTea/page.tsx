@@ -1,5 +1,3 @@
-import React from 'react'
-
 const page = () => {
     return (
         <div className="flex justify-center items-center min-h-[100vh] bg-[#607d8b]">

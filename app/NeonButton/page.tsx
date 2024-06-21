@@ -1,5 +1,3 @@
-import React from 'react'
-
 const NeonButton = () => {
     return (
         <div className="flex justify-center items-center min-h-[100vh] bg-[#031321] font-[consolas]">
